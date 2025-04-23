@@ -1,0 +1,3 @@
+/home/sooraj/test/boost/http/simple-beast-client/example/CMakeFiles/rebuild_cache.dir
+/home/sooraj/test/boost/http/simple-beast-client/example/CMakeFiles/edit_cache.dir
+/home/sooraj/test/boost/http/simple-beast-client/example/CMakeFiles/http-example.dir

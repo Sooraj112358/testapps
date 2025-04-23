@@ -1,0 +1,12 @@
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7706/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7707/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7714/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7709/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7710/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7715/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7706/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7712/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7702/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7701/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7705/proxyStreamer_profile_1
+rtsp://admin:Aveiro35@ewc-sstest.edgeway.io:7704/proxyStreamer_profile_1

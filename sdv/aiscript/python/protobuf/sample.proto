@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+message sampleInference {
+  google.protobuf.Timestamp timestamp = 1;
+  string object = 2;
+  int32 x_cordinate_start = 3;
+  int32 x_cordinate_end = 4;
+  int32 y_cordinate_start = 5;
+  int32 y_cordinate_end = 6;
+  int32 size_h = 7;
+  int32 size_w = 8;
+}
+

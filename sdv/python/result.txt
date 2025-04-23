@@ -1,0 +1,361 @@
+logged in user sysadmin@ewm.com
+********************************************************************************JWT********************************************************************************
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTMxNDAyNTcsImp0aSI6IjljMDY0YzZlLWY2ZWUtNDM1NC1iMjYwLTNiNzdlYzM5ZmRmZiIsImlzcyI6Im1lbmRlci51c2VyYWRtIiwic3ViIjoiYmQ4MWI1NWYtM2YxZS00N2M1LTgzNjQtNmQ4NmJlMjRjNTE0Iiwic2NwIjoibWVuZGVyLioiLCJtZW5kZXIudXNlciI6dHJ1ZSwicm9sZSI6InN5c3RlbWFkbSJ9.jqu_X7JgtHDS97CrJfZoZSYsYpK32aBmqj2rNxYZv_FN7_JpnaPq_iEDeMY3R6coRR57p93WIKoacb-Pm6lMJBqK6mHJDKkwneHawmV0PTAqhGDW1Khd9UCEt0Q1rv9g97HYdKAtzvDzaYZFnND51XcP-9k0AAPz6pnjSOGCvpcQ45IDu_jHtNyXWF-YQjmvP1ibJpqa2IpsoaA8x1iGWl7-aR6P28HSnIDd3lhZW30F3-W_nRccbpJa_EWrBcJQQgLcfdgrFLfvncB_gQJK0JAvnTnQVyVPUyjeOyTyg6B_D4ZUcrY0shiE0rmpuiysKsm9jkZMyVzel8xqmtRHqto63i8Pf7RG5fKvrk127WQDyiedEm7Izwjvfy87OUE2Zft0cc-7HwHwt5otPoPu_UFwLSVWOUwimUF6G9A3chatGLTFidKfH5ZjzzJ--X5hmvyFYFD9fc9XEroOzewI4sfwj9nL9UVfC9Sw1ItBp1ZLLtRcJmLNfyR2fsTKRJ-V
+********************************************************************************JWT********************************************************************************
+[
+   {
+      "deviceId": "601a4a693bf1a300014e348b",
+      "UUID": "6e876b3a-62ad-4213-ae2b-edc7e6c5defa",
+      "vcams": [
+         {
+            "slotIndex": 1,
+            "mac": "b4:a3:82:47:89:7f",
+            "uuid": "2a815722-b4aa-4b07-9c89-bd1ba25b6554",
+            "userName": "adminHK",
+            "password": "Aveiro35HK",
+            "onvifPort": 8000,
+            "onvifUrl": "http://ewm-local.com:8000/onvif/device_service",
+            "rtspPort": 8501,
+            "RtspUrl": "rtsp://ewm-local.com:8501/proxyStreamer_profile_1",
+            "serverIP": "10.27.15.75",
+            "cameraRtspChannels": [
+               {
+                  "profileName": "mainStream",
+                  "rtspUrl": "rtsp://192.168.1.24:554/Streaming/Channels/101?transportmode=unicast&profile=Profile_1",
+                  "codec": "H264",
+                  "resolution": 2688,
+                  "fps": 25
+               },
+               {
+                  "profileName": "subStream",
+                  "rtspUrl": "rtsp://192.168.1.24:554/Streaming/Channels/102?transportmode=unicast&profile=Profile_2",
+                  "codec": "H264",
+                  "resolution": 2688,
+                  "fps": 25
+               }
+            ],
+            "cameraNvrRecRtspPreferred": "mainStream",
+            "cameraAnalyzeRtspPreferred": "mainStream",
+            "info": {
+               "uptime": 0,
+               "restartCount": 0,
+               "type": "",
+               "command": "",
+               "status": "",
+               "error": {
+                  "state": "",
+                  "msg": ""
+               }
+            }
+         },
+         {
+            "slotIndex": 2,
+            "mac": "44:47:cc:5e:d7:fa",
+            "uuid": "158b09c2-5b2f-4733-a9ac-a6c7868a5161",
+            "userName": "HKadmin",
+            "password": "HKAveiro35",
+            "onvifPort": 8001,
+            "onvifUrl": "http://ewm-local.com:8001/onvif/device_service",
+            "rtspPort": 8502,
+            "RtspUrl": "rtsp://ewm-local.com:8502/proxyStreamer_profile_1",
+            "serverIP": "10.27.15.75",
+            "cameraRtspChannels": [
+               {
+                  "profileName": "mainStream",
+                  "rtspUrl": "rtsp://192.168.1.52:554/Streaming/Channels/101?transportmode=unicast&profile=Profile_1",
+                  "codec": "H264",
+                  "resolution": 3840,
+                  "fps": 25
+               },
+               {
+                  "profileName": "subStream",
+                  "rtspUrl": "rtsp://192.168.1.52:554/Streaming/Channels/102?transportmode=unicast&profile=Profile_2",
+                  "codec": "H264",
+                  "resolution": 3840,
+                  "fps": 25
+               }
+            ],
+            "cameraNvrRecRtspPreferred": "mainStream",
+            "cameraAnalyzeRtspPreferred": "mainStream",
+            "info": {
+               "uptime": 0,
+               "restartCount": 0,
+               "type": "",
+               "command": "",
+               "status": "",
+               "error": {
+                  "state": "",
+                  "msg": ""
+               }
+            }
+         },
+         {
+            "slotIndex": 3,
+            "mac": "b4:a3:82:5b:e4:69",
+            "uuid": "7fa3be09-7b26-48d1-8d0f-e8698847dd67",
+            "userName": "HKadminHK",
+            "password": "HKAveiro35HK",
+            "onvifPort": 8002,
+            "onvifUrl": "http://ewm-local.com:8002/onvif/device_service",
+            "rtspPort": 8503,
+            "RtspUrl": "rtsp://ewm-local.com:8503/proxyStreamer_profile_1",
+            "serverIP": "10.27.15.75",
+            "cameraRtspChannels": [
+               {
+                  "profileName": "mainStream",
+                  "rtspUrl": "rtsp://192.168.1.57:554/Streaming/Channels/101?transportmode=unicast&profile=Profile_1",
+                  "codec": "H264",
+                  "resolution": 2688,
+                  "fps": 25
+               },
+               {
+                  "profileName": "subStream",
+                  "rtspUrl": "rtsp://192.168.1.57:554/Streaming/Channels/102?transportmode=unicast&profile=Profile_2",
+                  "codec": "H264",
+                  "resolution": 2688,
+                  "fps": 25
+               },
+               {
+                  "profileName": "TestMediaProfile",
+                  "rtspUrl": "rtsp://192.168.1.57:554/Streaming/Channels/101?transportmode=unicast&profile=Profile_1383343380",
+                  "codec": "H264",
+                  "resolution": 2688,
+                  "fps": 25
+               },
+               {
+                  "profileName": "TestMediaProfile",
+                  "rtspUrl": "rtsp://192.168.1.57:554/Streaming/Channels/101?transportmode=unicast&profile=Profile_1251902561",
+                  "codec": "H264",
+                  "resolution": 2688,
+                  "fps": 25
+               }
+            ],
+            "cameraNvrRecRtspPreferred": "mainStream",
+            "cameraAnalyzeRtspPreferred": "mainStream",
+            "info": {
+               "uptime": 0,
+               "restartCount": 0,
+               "type": "",
+               "command": "",
+               "status": "",
+               "error": {
+                  "state": "",
+                  "msg": ""
+               }
+            }
+         },
+         {
+            "slotIndex": 4,
+            "mac": "a0:bd:1d:e0:7c:be",
+            "uuid": "a9a7dcc2-ebc9-45b8-ae3a-52ee7036b22d",
+            "userName": "dahuaadmin",
+            "password": "dahua123",
+            "onvifPort": 8003,
+            "onvifUrl": "http://ewm-local.com:8003/onvif/device_service",
+            "rtspPort": 8504,
+            "RtspUrl": "rtsp://ewm-local.com:8504/proxyStreamer_profile_1",
+            "serverIP": "10.27.15.75",
+            "cameraRtspChannels": [
+               {
+                  "profileName": "MediaProfile_Channel1_MainStream",
+                  "rtspUrl": "rtsp://192.168.1.108:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+                  "codec": "H264",
+                  "resolution": 1920,
+                  "fps": 25
+               },
+               {
+                  "profileName": "MediaProfile_Channel1_SubStream1",
+                  "rtspUrl": "rtsp://192.168.1.108:554/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif",
+                  "codec": "H264",
+                  "resolution": 1920,
+                  "fps": 25
+               }
+            ],
+            "cameraNvrRecRtspPreferred": "MediaProfile_Channel1_MainStream",
+            "cameraAnalyzeRtspPreferred": "MediaProfile_Channel1_MainStream",
+            "info": {
+               "uptime": 0,
+               "restartCount": 0,
+               "type": "",
+               "command": "",
+               "status": "",
+               "error": {
+                  "state": "",
+                  "msg": ""
+               }
+            }
+         },
+         {
+            "slotIndex": 5,
+            "mac": "ac:cc:8e:f1:4c:60",
+            "uuid": "ec258cb9-f21b-4855-aa37-edd901767228",
+            "userName": "admin",
+            "password": "AxisAveiro35!",
+            "onvifPort": 8004,
+            "onvifUrl": "http://ewm-local.com:8004/onvif/device_service",
+            "rtspPort": 8505,
+            "RtspUrl": "rtsp://ewm-local.com:8505/proxyStreamer_profile_1",
+            "serverIP": "10.27.15.75",
+            "cameraRtspChannels": [
+               {
+                  "profileName": "profile_1 h264",
+                  "rtspUrl": "rtsp://192.168.1.151/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast",
+                  "codec": "H264",
+                  "resolution": 1280,
+                  "fps": 30
+               },
+               {
+                  "profileName": "profile_1 jpeg",
+                  "rtspUrl": "rtsp://192.168.1.151/onvif-media/media.amp?profile=profile_1_jpeg&sessiontimeout=60&streamtype=unicast",
+                  "codec": "JPEG",
+                  "resolution": 1280,
+                  "fps": 30
+               }
+            ],
+            "cameraNvrRecRtspPreferred": "profile_1 h264",
+            "cameraAnalyzeRtspPreferred": "profile_1 h264",
+            "info": {
+               "uptime": 0,
+               "restartCount": 0,
+               "type": "",
+               "command": "",
+               "status": "",
+               "error": {
+                  "state": "",
+                  "msg": ""
+               }
+            }
+         },
+         {
+            "slotIndex": 6,
+            "mac": "ac:cc:8e:f2:78:56",
+            "uuid": "fe67ffec-1fc7-4a8e-8f67-a4fcd0c7d30e",
+            "userName": "axisadmin",
+            "password": "axis123",
+            "onvifPort": 8005,
+            "onvifUrl": "http://ewm-local.com:8005/onvif/device_service",
+            "rtspPort": 8506,
+            "RtspUrl": "rtsp://ewm-local.com:8506/proxyStreamer_profile_1",
+            "serverIP": "10.27.15.75",
+            "cameraRtspChannels": [
+               {
+                  "profileName": "profile_1 h264",
+                  "rtspUrl": "rtsp://192.168.1.185/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast",
+                  "codec": "H264",
+                  "resolution": 1920,
+                  "fps": 25
+               },
+               {
+                  "profileName": "profile_1 jpeg",
+                  "rtspUrl": "rtsp://192.168.1.185/onvif-media/media.amp?profile=profile_1_jpeg&sessiontimeout=60&streamtype=unicast",
+                  "codec": "JPEG",
+                  "resolution": 1920,
+                  "fps": 25
+               }
+            ],
+            "cameraNvrRecRtspPreferred": "profile_1 h264",
+            "cameraAnalyzeRtspPreferred": "profile_1 h264",
+            "info": {
+               "uptime": 0,
+               "restartCount": 0,
+               "type": "",
+               "command": "",
+               "status": "",
+               "error": {
+                  "state": "",
+                  "msg": ""
+               }
+            }
+         },
+         {
+            "slotIndex": 7,
+            "mac": "00:07:5f:b3:e7:77",
+            "uuid": "317eb2c9-dd83-4906-94da-d500f57191a0",
+            "userName": "admin",
+            "password": "Aveiro-35",
+            "onvifPort": 8006,
+            "onvifUrl": "http://ewm-local.com:8006/onvif/device_service",
+            "rtspPort": 8507,
+            "RtspUrl": "rtsp://ewm-local.com:8507/proxyStreamer_profile_1",
+            "serverIP": "10.27.15.75",
+            "cameraRtspChannels": [
+               {
+                  "profileName": "H26x_L1S1",
+                  "rtspUrl": "rtsp://192.168.1.199/rtsp_tunnel?p=0&h26x=4&vcd=2",
+                  "codec": "H264",
+                  "resolution": 3072,
+                  "fps": 20
+               },
+               {
+                  "profileName": "H26x_L1S2",
+                  "rtspUrl": "rtsp://192.168.1.199/rtsp_tunnel?p=1&inst=2&h26x=4",
+                  "codec": "H264",
+                  "resolution": 3072,
+                  "fps": 20
+               },
+               {
+                  "profileName": "JPEG_L1S3",
+                  "rtspUrl": "rtsp://192.168.1.199/rtsp_tunnel?h26x=0",
+                  "codec": "JPEG",
+                  "resolution": 3072,
+                  "fps": 20
+               }
+            ],
+            "cameraNvrRecRtspPreferred": "H26x_L1S1",
+            "cameraAnalyzeRtspPreferred": "H26x_L1S1",
+            "info": {
+               "uptime": 0,
+               "restartCount": 0,
+               "type": "",
+               "command": "",
+               "status": "",
+               "error": {
+                  "state": "",
+                  "msg": ""
+               }
+            }
+         },
+         {
+            "slotIndex": 8,
+            "mac": "ac:cc:8e:e4:db:78",
+            "uuid": "c0086677-2c73-405a-b0b4-63ff34c33382",
+            "userName": "admin",
+            "password": "axis456",
+            "onvifPort": 8008,
+            "onvifUrl": "http://ewc-local.com:8008/onvif/device_service",
+            "rtspPort": 8509,
+            "RtspUrl": "rtsp://ewc-local.com:8509/proxyStreamer_profile_1",
+            "serverIP": "10.27.15.75",
+            "cameraRtspChannels": [
+               {
+                  "profileName": "profile_1 h264",
+                  "rtspUrl": "rtsp://192.168.1.188/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast",
+                  "codec": "H264",
+                  "resolution": 1280,
+                  "fps": 30
+               },
+               {
+                  "profileName": "profile_1 jpeg",
+                  "rtspUrl": "rtsp://192.168.1.188/onvif-media/media.amp?profile=profile_1_jpeg&sessiontimeout=60&streamtype=unicast",
+                  "codec": "JPEG",
+                  "resolution": 1280,
+                  "fps": 30
+               }
+            ],
+            "cameraNvrRecRtspPreferred": "profile_1 h264",
+            "cameraAnalyzeRtspPreferred": "profile_1 h264",
+            "info": {
+               "uptime": 0,
+               "restartCount": 0,
+               "type": "",
+               "command": "",
+               "status": "",
+               "error": {
+                  "state": "",
+                  "msg": ""
+               }
+            }
+         }
+      ]
+   }
+]

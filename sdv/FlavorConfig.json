@@ -1,0 +1,132 @@
+{
+    "local_config": {
+        "creationTimestamp": 1574409063,
+        "lastModificationTimestamp": 1579260565,
+        "interface_primary_configuration": {
+            "name": "eth0",
+            "mode": "dhcp",
+            "fixConfiguration": {
+                "address": "10.25.12.60",
+                "mask": "255.255.255.128",
+                "gateway": "10.25.12.1",
+                "DNS": "10.25.14.10,10.9.214.10,10.9.214.11"
+            }
+        },
+        "interface_secondary_configuration": {
+            "name": "eth1",
+            "mode": "fix",
+            "fixConfiguration": {
+                "address": "172.31.255.1",
+                "mask": "255.255.255.0",
+                "gateway": "",
+                "DNS": ""
+            }
+        },
+        "slot_configuration": {
+            "nb_activ_slot": 8,
+            "nb_max_slot": 12,
+            "slots": [
+                {},
+                {
+                    "cameraBrand": "Samsung Techwin",
+                    "cameraModel": "QNV-6070R",
+                    "cameraSN": "ZKST6V4K80000ZA",
+                    "cameraMAC": "e4:30:22:03:72:e3",
+                    "cameraHWid": "QNV-6070R",
+                    "cameraMainRtsp": "rtsp://10.25.12.94:554/onvif/profile1/media.smp",
+                    "cameraComment": "",
+                    "cameraFWVersion": "2.02_180612",
+                    "cameraUserName": "admin",
+                    "cameraPassword": "Aveiro35",
+                    "cameraTestedStatus": 2,
+                    "cameraIpAddr" : "10.25.12.89"
+                },
+                {
+                    "cameraBrand": "Wisenet",
+                    "cameraModel": "QNV-6070R",
+                    "cameraSN": "ZKST6V4K80000ZA",
+                    "cameraMAC": "e4:30:22:03:72:e3",
+                    "cameraHWid": "QNV-6070R",
+                    "cameraMainRtsp": "rtsp://10.25.12.94:554/onvif/profile1/media.smp",
+                    "cameraComment": "",
+                    "cameraFWVersion": "2.02_180612",
+                    "cameraUserName": "admin",
+                    "cameraPassword": "Aveiro35",
+                    "cameraTestedStatus": 2,
+                    "cameraIpAddr" : "192.168.1.14"
+                },
+                {
+                    "cameraBrand": "Axis",
+                    "cameraModel": "-6070R",
+                    "cameraSN": "ZKS",
+                    "cameraMAC": "e4:30:22:03:72:e3",
+                    "cameraHWid": "QNV-6070R",
+                    "cameraMainRtsp": "rtsp://10.25.12.94:554/onvif/profile1/media.smp",
+                    "cameraComment": "",
+                    "cameraFWVersion": "2.02_180612",
+                    "cameraUserName": "admin",
+                    "cameraPassword": "Aveiro35",
+                    "cameraTestedStatus": 2,
+                    "cameraIpAddr" : "192.168.1.13"
+                },
+                {
+                    "cameraBrand": "HIKVISION",
+                    "cameraModel": "DS-2CD2725FWD-IZS",
+                    "cameraSN": "DS-2CD2725FWD-IZS20190708AAWRD32681621",
+                    "cameraMAC": "bc:ba:c2:08:35:3c",
+                    "cameraHWid": "88",
+                    "cameraMainRtsp": "rtsp://10.25.12.63:554/Streaming/Channels/101?transportmode=unicast&profile=Profile_1",
+                    "cameraComment": "",
+                    "cameraFWVersion": "V5.6.0 build 190507",
+                    "cameraUserName": "admin",
+                    "cameraPassword": "Aveiro35",
+                    "cameraTestedStatus": 2,
+                    "cameraIpAddr" : "10.25.12.89"
+                },
+                {
+                    "cameraBrand": "Samsung Techwin",
+                    "cameraModel": "XNF-8010R",
+                    "cameraSN": "ZKMH6V4M6000CJP",
+                    "cameraMAC": "e4:30:22:0e:b7:98",
+                    "cameraHWid": "XNF-8010R",
+                    "cameraMainRtsp": "rtsp://10.25.12.92:554/onvif/profile1/media.smp",
+                    "cameraComment": "",
+                    "cameraFWVersion": "1.21.12_20190122_R270",
+                    "cameraUserName": "admin",
+                    "cameraPassword": "Aveiro35",
+                    "cameraTestedStatus": 2,
+                    "cameraIpAddr" : "10.25.12.57"
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        }
+    },
+    "device_config": {
+        "name": "E2C_MTY",
+        "type": "VMS",
+        "config_details": {
+            "e2c_server_address": "127.0.0.1",
+            "e2c_server_port": "12000",
+            "e2c_server_enable_ssl": "false"
+        }
+    },
+    "flavor_config": {
+        "name": "FLM_LiveView_E2C",
+        "type": "VMS",
+        "container": {
+            "NVR": "disable",
+            "PROXYCAM": "disable",
+            "LIVEVIEW": "enable",
+            "E2C": "enable",
+            "AI": "disable",
+            "DOCKER": "disable"
+        }
+    }
+}

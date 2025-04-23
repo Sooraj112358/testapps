@@ -1,0 +1,75 @@
+pubsub.cpp: In function ‘void stopEverything()’:
+pubsub.cpp:25:18: warning: ‘bool zmq::detail::socket_base::send(zmq::message_t&, int)’ is deprecated: from 4.3.1, use send taking message_t and send_flags [-Wdeprecated-declarations]
+   25 |  socket.send(msg1);
+      |                  ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1326:10: note: declared here
+ 1326 |     bool send(message_t &msg_,
+      |          ^~~~
+pubsub.cpp:28:18: warning: ‘bool zmq::detail::socket_base::send(zmq::message_t&, int)’ is deprecated: from 4.3.1, use send taking message_t and send_flags [-Wdeprecated-declarations]
+   28 |  socket.send(msg2);
+      |                  ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1326:10: note: declared here
+ 1326 |     bool send(message_t &msg_,
+      |          ^~~~
+pubsub.cpp: In function ‘void startPublisher1(zmq::socket_t&)’:
+pubsub.cpp:67:47: warning: ‘bool zmq::detail::socket_base::send(zmq::message_t&, int)’ is deprecated: from 4.3.1, use send taking message_t and send_flags [-Wdeprecated-declarations]
+   67 |             zmq_socket.send(topic, ZMQ_SNDMORE);
+      |                                               ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1326:10: note: declared here
+ 1326 |     bool send(message_t &msg_,
+      |          ^~~~
+pubsub.cpp:68:32: warning: ‘bool zmq::detail::socket_base::send(zmq::message_t&, int)’ is deprecated: from 4.3.1, use send taking message_t and send_flags [-Wdeprecated-declarations]
+   68 |             zmq_socket.send(msg);
+      |                                ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1326:10: note: declared here
+ 1326 |     bool send(message_t &msg_,
+      |          ^~~~
+pubsub.cpp: In function ‘void startPublisher2(zmq::socket_t&)’:
+pubsub.cpp:92:47: warning: ‘bool zmq::detail::socket_base::send(zmq::message_t&, int)’ is deprecated: from 4.3.1, use send taking message_t and send_flags [-Wdeprecated-declarations]
+   92 |             zmq_socket.send(topic, ZMQ_SNDMORE);
+      |                                               ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1326:10: note: declared here
+ 1326 |     bool send(message_t &msg_,
+      |          ^~~~
+pubsub.cpp:93:32: warning: ‘bool zmq::detail::socket_base::send(zmq::message_t&, int)’ is deprecated: from 4.3.1, use send taking message_t and send_flags [-Wdeprecated-declarations]
+   93 |             zmq_socket.send(msg);
+      |                                ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1326:10: note: declared here
+ 1326 |     bool send(message_t &msg_,
+      |          ^~~~
+pubsub.cpp: In function ‘void startSubscriber1(zmq::socket_t&)’:
+pubsub.cpp:134:53: warning: ‘bool zmq::detail::socket_base::recv(zmq::message_t*, int)’ is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [-Wdeprecated-declarations]
+  134 |             rc = zmq_socket.recv(&topic, ZMQ_RCVMORE);  // Works fine
+      |                                                     ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1407:10: note: declared here
+ 1407 |     bool recv(message_t *msg_, int flags_ = 0)
+      |          ^~~~
+pubsub.cpp:135:38: warning: ‘bool zmq::detail::socket_base::recv(zmq::message_t*, int)’ is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [-Wdeprecated-declarations]
+  135 |             rc = zmq_socket.recv(&msg) && rc;
+      |                                      ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1407:10: note: declared here
+ 1407 |     bool recv(message_t *msg_, int flags_ = 0)
+      |          ^~~~
+pubsub.cpp: In function ‘void startSubscriber2(zmq::socket_t&)’:
+pubsub.cpp:190:53: warning: ‘bool zmq::detail::socket_base::recv(zmq::message_t*, int)’ is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [-Wdeprecated-declarations]
+  190 |             rc = zmq_socket.recv(&topic, ZMQ_RCVMORE);  // Works fine
+      |                                                     ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1407:10: note: declared here
+ 1407 |     bool recv(message_t *msg_, int flags_ = 0)
+      |          ^~~~
+pubsub.cpp:191:38: warning: ‘bool zmq::detail::socket_base::recv(zmq::message_t*, int)’ is deprecated: from 4.3.1, use recv taking a reference to message_t and recv_flags [-Wdeprecated-declarations]
+  191 |             rc = zmq_socket.recv(&msg) && rc;
+      |                                      ^
+In file included from pubsub.cpp:2:
+/usr/include/zmq.hpp:1407:10: note: declared here
+ 1407 |     bool recv(message_t *msg_, int flags_ = 0)
+      |          ^~~~
