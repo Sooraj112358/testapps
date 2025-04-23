@@ -1,7 +1,7 @@
 Steps to Contribute
 
 Clone the repository (if you haven’t already):
-git clone https://github.com/Sooraj112358/testapps.git
+git clone https://github.com/soorajdevs/testapps.git
 cd testapps
 
 Checkout or create a feature branch from pulsar:
@@ -25,11 +25,9 @@ Submit the PR for review
 ✅ All changes must come via Pull Requests
 ✅ PRs may require:
 ✅ Code review/approval
-✅ Passing CI checks (if configured)
 
 🧼 Tip: Keep Your Branch Updated
 Before submitting your PR, it's good practice to sync with the latest pulsar branch:
-
 git checkout pulsar
 git pull origin pulsar
 git checkout feature/my-awesome-feature
