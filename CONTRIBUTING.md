@@ -1,7 +1,7 @@
 Steps to Contribute
 
 Clone the repository (if you haven’t already):
-git clone https://github.com/Sooraj112358/testapps.git
+git clone https://github.com/soorajdevs/testapps.git
 cd testapps
 
 Checkout or create a feature branch from pulsar:
